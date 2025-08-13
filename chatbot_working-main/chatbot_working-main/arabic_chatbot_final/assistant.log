@@ -1,0 +1,110 @@
+2025-08-11 21:36:35,894 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'أريد حجز تذكرة', 'intent': 'booking.ask', 'details': {}}
+2025-08-11 21:36:35,895 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-11 21:37:06,275 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'يوم الأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-11 21:37:06,509 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'تم الحجز ✅\nمعرف التذكرة: aefb9719', 'action': 'booked'}
+2025-08-11 21:38:02,173 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'أريد حجز يوم الأحد الساعة ٦ مساءً', 'intent': 'booking.fill', 'details': {'day': 'الأحد', 'time': '٦ مساءً', 'raw': 'أريد حجز يوم الأحد الساعة ٦ مساءً'}}
+2025-08-11 21:38:02,174 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 7162f517', 'action': 'booked'}
+2025-08-11 21:38:16,699 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'ألغي التذكرة رقم \\', 'intent': 'cancel.ask', 'details': {}}
+2025-08-11 21:38:16,699 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'ما هو معرف التذكرة التي تريد إلغاؤها؟', 'action': None}
+2025-08-11 21:38:25,594 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': "aefb9719'", 'intent': 'general.query', 'details': {}}
+2025-08-11 21:38:25,594 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': "لم يتم العثور على تذكرة بالمعرف aefb9719'.", 'action': None}
+2025-08-11 21:38:30,629 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'aefb9719', 'intent': 'general.query', 'details': {}}
+2025-08-11 21:38:30,630 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'تم إلغاء التذكرة ✅ (ID: aefb9719)', 'action': 'cancelled'}
+2025-08-11 21:38:52,108 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'user': 'ما هي مواعيد المباريات القادمة', 'intent': 'general.query', 'details': {}}
+2025-08-11 21:38:52,793 INFO {'session_id': '9ded79f8-bfda-4c4f-b4b2-49b5a762db32', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-12 18:46:44,200 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'user': 'حجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-12 18:46:44,201 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-12 18:46:55,855 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'user': 'الأربعاء', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:46:55,856 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'bot': 'يرجى تحديد اليوم والوقت بشكل أوضح.', 'action': None}
+2025-08-12 18:47:09,247 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'user': 'الأربعاء  الساعة  8', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:47:09,248 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 5627a63d', 'action': 'booked'}
+2025-08-12 18:47:43,734 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'user': 'ما مباريات اليوم', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:47:44,449 INFO {'session_id': '6dec5bc6-788a-40e7-bf15-996d680c77cb', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-12 18:55:30,427 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'حجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-12 18:55:30,427 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-12 18:56:15,448 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الاحد الساعة 10 مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:56:15,448 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'يرجى تحديد اليوم والوقت بشكل أوضح.', 'action': None}
+2025-08-12 18:56:25,512 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الاحد الساعة 11مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:56:25,513 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'يرجى تحديد اليوم والوقت بشكل أوضح.', 'action': None}
+2025-08-12 18:56:42,898 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الاحد 8', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:56:42,899 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'يرجى تحديد اليوم والوقت بشكل أوضح.', 'action': None}
+2025-08-12 18:57:00,522 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الأربعاء الساعة 11مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:57:00,523 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 607f0190', 'action': 'booked'}
+2025-08-12 18:57:12,825 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الخميس الساعة 11مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-12 18:57:12,952 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-12 18:57:27,123 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'user': 'الخميس الساعة 11مساءً حجز', 'intent': 'booking.fill', 'details': {'day': 'الخميس', 'time': '11 مساءً', 'raw': 'الخميس الساعة 11مساءً حجز'}}
+2025-08-12 18:57:27,123 INFO {'session_id': '3a2975f2-56ba-4d7f-9d57-cbbd238c7222', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 344768d7', 'action': 'booked'}
+2025-08-13 01:11:41,827 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'rg', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:11:46,318 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:12:02,703 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'حجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-13 01:12:02,703 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-13 01:12:19,337 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'الأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:12:19,338 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'تم الحجز ✅\nمعرف التذكرة: bbbe046b', 'action': 'booked'}
+2025-08-13 01:12:27,123 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'bbbe046b', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:12:31,443 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:12:41,602 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'الغي', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:12:45,851 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:12:57,203 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'bbbe046b الغي', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:13:01,405 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:13:35,461 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'user': 'ما هيا المتشات يوم لأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:13:39,899 INFO {'session_id': '4276f1d9-31df-4049-ade0-08afbee36aff', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:30:02,708 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'سلام عليكم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:31:50,077 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': ': السلام عليكم ورحمة الله وبركاتهالسلام عليكم ورحمه الله وبركاتهبسم الله الرحمن الرحيمفإذا كنت مشترك مسبقا معنا فقم بتسجيل دخول بعضويتك للمتابعة وإذا لم تكن فيمكنك تسجيل عضوية جديدة مجانا ( بضغط هنا )لوحة تحكم العضو الرسائل الخاصة الاشتراكات المتواجدون الآن البحث في المنتدى الصفحة الرئيسية للمنتدى الاقسام الاسلاميه المنتدى الإسلامي قصص الأنبياء عليهم السلام قصص الصحابة رضي الله عنهم الصوتيات والمرئيات الإسلاميه الاقسام العامه المنتدى العام نقاشات وحوارات ملتقى الأصدقاء أخبار الأسرة نادي الكتاب الاقسام الادبية منتدى الجينات الوراثية عذب الكلام القصص و الرويات تاريخ و انساب الشعر العربي والشعبي قسم حواء الطبخ والمأكولات الأثاث والديكور منتدى حواء منتدى الصحة منتدى الأطفال قسم الوسائط المتعددة منتدى الصورة عدسة الاعضاء منتدى الفديو قسم التقنية التصاميم عالم الماسنجر برامج الكمبيوتر والأنترنت الاقسام الشبابية منتدى الشباب البر و المقناص الأقسام الرياضيه المنتخب السعودي السيارات والدراجات الدوري الاوربي دوري زين دوري عبداللطيف جميل الاقسام الترفيهية منتدى الضحك والوناسه منتدى الألعاب الاقسام الإداريه الشكاوي و الإقتراحات قسم طلبات الاشراف على الاقسام قسم خاص بطلبات تغيير الاسماء المواضيع المكررةالاقسام العامه @ المنتدى العام @ ملتقى الأصدقاء @ مزاد المنتدى @ الخيمة الرمضانية @ الأرشيف @ ملتقى الشباب @', 'action': None}
+2025-08-13 01:32:27,337 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'عاوز اغحجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-13 01:32:27,337 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-13 01:32:35,982 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'الأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:32:35,982 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 2aa567e8', 'action': 'booked'}
+2025-08-13 01:32:49,134 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'عاوز الغي', 'intent': 'cancel.ask', 'details': {}}
+2025-08-13 01:32:49,135 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'ما هو معرف التذكرة التي تريد إلغاؤها؟', 'action': None}
+2025-08-13 01:32:56,085 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': '2aa567e8', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:32:56,086 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم إلغاء التذكرة ✅ (ID: 2aa567e8)', 'action': 'cancelled'}
+2025-08-13 01:33:26,936 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما ماتشات اليوم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:33:36,965 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': ':.. منتديات جماهير الوحدات.. : : > المنتديات العامة > المنتدى العام - منتدى محمد ابوغاليه رحمه الله -عنوان الموضوع المشاركة الأخيرة تاريخ بداية الموضوع عدد الردود عدد المشاهدات كاتب الموضوع تقييم الموضوعآخر يوم آخر يومين آخر أسبوع آخر 10 أيام آخر أسبوعين آخر شهر آخر 45 يوم آخر شهرين آخر 75 يوم آخر 100 يوم السنة الماضية البدايةلوحة تحكم العضوالرسائل الخاصةالاشتراكاتالمتواجدون الآنالبحث في المنتدىالصفحة الرئيسية للمنتدى الأقسام العامة منتدى الحوار العام منتدى الإقتراحات منتدى الإعلانات منتدى المنوعات', 'action': None}
+2025-08-13 01:39:22,931 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'سلام عليكم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:39:23,023 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:39:32,529 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما متشات اليوم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:39:32,559 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:43:50,955 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'hi', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:43:51,043 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:43:56,776 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'سلام عليكم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:43:56,804 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:44:04,424 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما متشات اليوم', 'intent': 'fixtures.today', 'details': {}}
+2025-08-13 01:44:04,424 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'الرجاء ضبط مفتاح API في المتغير FOOTBALL_DATA_TOKEN لتفعيل نتائج المباريات.', 'action': None}
+2025-08-13 01:46:57,423 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما متشات البوم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:46:57,453 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:47:11,458 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما ماتشات اليوم', 'intent': 'fixtures.today', 'details': {}}
+2025-08-13 01:47:11,458 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'الرجاء ضبط مفتاح API في المتغير FOOTBALL_DATA_TOKEN لتفعيل نتائج المباريات.', 'action': None}
+2025-08-13 01:48:16,484 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما ماتشات اليوم', 'intent': 'fixtures.today', 'details': {}}
+2025-08-13 01:48:16,485 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'الرجاء ضبط مفتاح API في المتغير FOOTBALL_DATA_TOKEN لتفعيل نتائج المباريات.', 'action': None}
+2025-08-13 01:49:22,157 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما منشات اليوم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:49:22,206 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:49:29,915 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'حجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-13 01:49:29,915 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-13 01:49:42,653 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'الأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:49:42,654 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 60c4c1bf', 'action': 'booked'}
+2025-08-13 01:49:54,561 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'عاوز الغي', 'intent': 'cancel.ask', 'details': {}}
+2025-08-13 01:49:54,561 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'ما هو معرف التذكرة التي تريد إلغاؤها؟', 'action': None}
+2025-08-13 01:50:01,132 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': '60c4c1bf', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:50:01,133 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم إلغاء التذكرة ✅ (ID: 60c4c1bf)', 'action': 'cancelled'}
+2025-08-13 01:50:07,322 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'احا', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:50:07,352 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:57:58,032 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'سلام عليكم', 'intent': 'smalltalk.greet', 'details': {}}
+2025-08-13 01:57:58,032 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'وعليكم السلام، كيف أساعدك في الحجز أو معرفة مباريات اليوم؟', 'action': None}
+2025-08-13 01:58:14,507 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما مبرات الييوم', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:58:14,588 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:58:28,716 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'ما مباريات اليوم', 'intent': 'fixtures.today', 'details': {}}
+2025-08-13 01:58:28,716 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'مباريات اليوم:\n- 20:00: الأهلي vs الزمالك (دوري تجريبي)\n- 22:30: الهلال vs النصر (ودية)', 'action': None}
+2025-08-13 01:58:49,875 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'عاوز احجز 20:00: الأهلي vs الزمالك (دوري تجريبي)', 'intent': 'booking.fill', 'details': {'day': None, 'time': '20:00 مساءً', 'raw': 'عاوز احجز 20:00: الأهلي vs الزمالك (دوري تجريبي)'}}
+2025-08-13 01:58:49,875 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'يرجى تحديد اليوم والوقت بشكل أوضح.', 'action': None}
+2025-08-13 01:59:16,082 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'الاحد الاحد 10 pm', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:59:16,177 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:59:25,035 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'الاحد 10 pm', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:59:25,066 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'عذرًا، لم أجد معلومات متعلقة بسؤالك.', 'action': None}
+2025-08-13 01:59:35,307 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'عاوز احجز', 'intent': 'booking.ask', 'details': {}}
+2025-08-13 01:59:35,307 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'ما هو اليوم والوقت الذي تريد الحجز فيه؟ (مثال: الأربعاء الساعة ٨ مساءً)', 'action': None}
+2025-08-13 01:59:42,104 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'لأربعاء الساعة ٨ مساءً', 'intent': 'general.query', 'details': {}}
+2025-08-13 01:59:42,105 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم الحجز ✅\nمعرف التذكرة: 85760020', 'action': 'booked'}
+2025-08-13 02:00:30,612 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'الغي 85760020', 'intent': 'cancel.fill', 'details': {'ticket_id': '85760020'}}
+2025-08-13 02:00:30,612 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'تم إلغاء التذكرة ✅ (ID: 85760020)', 'action': 'cancelled'}
+2025-08-13 02:00:54,584 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'user': 'كيف ممكن تساعدني', 'intent': 'smalltalk.help', 'details': {}}
+2025-08-13 02:00:54,584 INFO {'session_id': 'fb3525c4-246b-40aa-aa63-5637a7ef24ef', 'bot': 'أستطيع حجز أو إلغاء تذاكر، وعرض مباريات اليوم. اكتب: حجز، أو: ما مباريات اليوم.', 'action': None}
